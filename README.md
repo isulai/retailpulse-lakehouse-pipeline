@@ -4,7 +4,7 @@ End-to-End Data Engineering Project built using Databricks, Delta Lake, Apache S
 
 ## Architecture
 
-![RetailPulse Architecture](images/retailpulse_img_arch.png.png)
+![RetailPulse Architecture](retailpulse_img_arch.png)
 
 ---
 
