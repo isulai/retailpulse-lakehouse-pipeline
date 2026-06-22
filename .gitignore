@@ -1,0 +1,61 @@
+# Databricks local output
+.databricks/
+.bundle/
+dbfs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Spark and Delta local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+checkpoints/
+_checkpoint/
+_spark_metadata/
+*.crc
+
+# Data files
+*.parquet
+*.avro
+*.orc
+*.delta
+*.snappy.parquet
+*.csv
+*.jsonl
+*.gz
+*.zip
+
+# Keep documented sample folder
+!data/sample/README.md
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.token
+secrets/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
