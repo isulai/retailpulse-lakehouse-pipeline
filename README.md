@@ -232,6 +232,11 @@ retailpulse-lakehouse-pipeline/
 |-- README.md
 |-- LICENSE
 |-- .gitignore
+|-- 01_Bronze_Ingestion.ipynb
+|-- 02_Silver_Transformation.ipynb
+|-- 03_Gold_Aggregation.ipynb
+|-- 04_Delta_Operations.ipynb
+|-- 05_Project_Validation.ipynb
 |-- assets/
 |   `-- screenshots/
 |       |-- retailpulse-streaming-cdc-architecture.png
